@@ -20,7 +20,7 @@ The atomic unit of time. Every K-step produces a receipt:
 - Parent hash (links to the previous receipt — chain continuity)
 - Discontinuity flag (was there a gap)
 
-Five invariants must ALL hold before a receipt is written:
+Five invariants are designed to ALL hold before a receipt is written:
 
 1. Positive transition (the step actually did something)
 2. Conservation verified (nothing was destroyed)
